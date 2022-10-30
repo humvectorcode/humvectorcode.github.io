@@ -1,0 +1,306 @@
+/* Estilos universales */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;}
+
+/* HEADER */
+
+/* NAV */
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.navMain{
+    background-color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 20px 20px;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    flex-flow: wrap;
+
+}
+
+.navMain img{
+    width: 30%;
+}
+
+
+/* NAV LEF*/
+.navMain ul{
+    display: flex;
+}
+
+.navMain ul li a:hover{
+    color: greenyellow;
+    border-bottom: 2px solid white;
+    
+}
+
+.navMain ul li a{
+    padding: 10px 30px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+
+/*CONTENEDORES*/
+.container{
+    width: 100vw;
+    max-width: 1200px;
+    min-width: 320px;
+    height: auto;
+    margin: auto;
+    /*border: 1px solid black;*/ 
+    flex-flow: wrap; 
+}
+
+body{
+    background-color: rgb(228, 228, 228);
+}
+
+/*CARD*/
+.boxContainer{
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    flex-flow: wrap;
+    background-color: white;
+}
+
+.boxCol3:hover{
+    border: 2px solid greenyellow;
+    transition: 0.5ms;
+}
+
+.boxItem{
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-right: 5px;
+    margin: 10px 5px;
+    background-color: burlywood;
+}
+
+.boxCol2{
+    width: 580px;
+    height: auto;
+    padding-right: 5px;
+    margin: 10px 5px;
+}
+
+
+
+.boxCol3{
+    width: 370px;
+    height: auto;
+    text-align: center;
+    padding-right: 5px;
+    margin: 10px 5px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+
+}
+
+
+/* Gradient transparent - color - transparent */
+
+hr{
+    border: 0;
+    height: 4px;
+    background-color: greenyellow;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*TEXTOS*/
+h1,h2,h3,h4,h5,h6{
+    text-transform: uppercase;
+    font-weight:400;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 35px;
+    
+}
+
+p{
+    padding: 15px 15px;
+}
+
+.titleMain{
+    width: 100%;
+    color: black;
+    padding: 20px 0px;
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+/*BOTONES*/
+.btn-primary{
+    background-color: greenyellow;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn-primary:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn-primary-large{
+    background-color: greenyellow;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.5s;
+    
+}
+
+
+/*IMG*/
+img{
+    width: 100%;
+    text-align: center;
+    margin-left: 2px;
+}
+
+/*INFORMATION BLOCKS*/
+.books{
+    padding-top: 40px;
+}
+
+.books button{
+    margin: 30px;
+}
+
+.books h1{
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.sobreLaBibliotecta{
+    padding: 40px 0px;
+}
+
+.sobreLaBibliotecta h1{
+
+}
+
+.sobreLaBibliotecta h3{
+    line-height: 30px;
+    text-align: center;
+    font-style: italic;
+    text-transform: none;
+    font-size: 25px;
+    padding: 20px 20px;
+}
+
+.sobreLaBibliotecta p{
+    padding: 20px 40px;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+footer{
+    background-color: rgb(55, 55, 55);
+    color: white;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: nowrap;
+    text-align: center;
+}
+
+footer div {
+}
+
+footer h3{
+    font-weight: 500;
+    border-bottom: 1px solid gray;
+    padding: 20px 0px;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+footer img{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.creditos{
+    text-align: center;
+    background-color:rgb(45, 45, 45);
+    color: rgb(172, 172, 172);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px
+}
+
+
+
+.iconContenedor{
+    border: 1px soli white;
+    padding: 25px 15px;
+
+}
+
+.iconContenedor img{
+    width: 15px;
+}
+
+.iconContenedor hr{
+    background-color: gray;
+    height: 2px;
+}
+
+.iconContenedor p{
+    padding: 5px;
+    margin: 0px;
+}
+
+
+.icons{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.titulodeAcentoPie{
+    font-weight: bold;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
